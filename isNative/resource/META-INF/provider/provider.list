@@ -1,0 +1,1 @@
+de.intarsys.nativec.api.INativeInterface;de.intarsys.nativec.jna.JnaNativeInterface 	# The JNA based native interface implementation

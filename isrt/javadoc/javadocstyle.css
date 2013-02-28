@@ -1,0 +1,30 @@
+/* Javadoc style sheet */
+
+/* Define colors, fonts and other style attributes here to override the defaults */
+
+/* Page background color */
+body { background-color: #FFFFFF }
+
+/* Headings */
+h1 { font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif }
+h2 { font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif }
+
+/* Table colors */
+.TableSubHeadingColor  { background: #dcff82 } /* intarsys light green */
+.TableHeadingColor     { background: #bee164 } /* intarsys dark green */
+.TableRowColor         { background: #FFFFFF } /* White */
+
+/* Font used in left-hand frame lists */
+.FrameTitleFont   { font-size: 100%; font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif }
+.FrameHeadingFont { font-size:  90%; font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif }
+.FrameItemFont    { font-size:  90%; font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif }
+
+/* Navigation bar fonts and colors */
+.NavBarCell1    { background-color:#dcff82;} /* intarsys light green */
+.NavBarCell1Rev { background-color:#bee164;} /* intarsys dark green */
+.NavBarFont1    { font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif; color:#000000;}
+.NavBarFont1Rev { font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif; color:#FFFFFF;}
+
+.NavBarCell2    { font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif; background-color:#FFFFFF;}
+.NavBarCell3    { font-family: Verdana, Vera Sans, Helvetica, Arial, sans-serif; background-color:#FFFFFF;}
+

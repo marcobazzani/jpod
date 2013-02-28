@@ -1,0 +1,131 @@
+<html>
+<body>
+
+A library for reading, writing and manipulating PDF files.
+
+<h2><a name="Content">Content</a></h2>
+<ol type="a" >
+	<li><a href="#Installation">Installation</a></li>
+	<li><a href="#Overview">Overview</a></li>
+	<li><a href="#Implementation">Implementation Details</a></li>
+	<li><a href="#License">License</a></li>
+	<li><a href="#References">References</a></li>
+	<li><a href="#Support">Service and support</a></li>
+</ol>
+<!-- ============== -->
+
+<hr></hr>
+
+<h2><a name="Installation">Installation</a></h2>
+To use this implementation, you have to include the jar files in the "lib" directory in your classpath.
+
+<h2><a name="Overview">Overview</a></h2>
+This is the "kernel" of the intarsys PDF implementation, containing the static model
+parts, datatypes and IO implementations. Using this kernel alone, you are
+able to read, manipulate and write PDF documents in any way you like. An 
+impressive example is CABAReT Stage, built completely on top of this kernel.
+
+A couple of other layers and libraries will provide 
+additional features to ease PDF document handling. 
+
+Here is a (incomplete) <b>Feature List</b> for this implementation:
+
+<ul>
+<li>Lazy reading</li>
+<li>Incremental writing</li>
+<li>Update propagation</li>
+<li>Hooks for undo support</li>
+<li>Strict constraints on internal COSObject consistency</li>
+<li>Rich PD level</li>
+<li>Additional higher level features (rendering etc.) available</li>
+<li>Professional references (e.g. CABAReT Stage)</li>
+</ul>
+
+<h2><a name="Implementation">Implementation Details</a></h2>
+<p>
+There are some common patterns throughout this implementation.
+</p>
+<br/>
+<code>
+* still incomplete list *
+</code>
+
+<h3>Factories</h3>
+A factory decouples semantics from concrete implementation. Our factories use
+always an interface using the name "I[name]Factory". A singleton implementation
+with the name "[name]Factory" provides getter and setter to access this factory.
+In most cases a standard implementation is provided, named 
+"Standard[name]Factory".
+
+
+<h2><a name="License">License</a></h2>
+This library is released under a BSD style license. The license is included with
+the sources and at numerous other places, for example here:
+
+<pre>
+/*
+ * Copyright (c) 2007, intarsys consulting GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * - Redistributions of source code must retain the above copyright notice,
+ *   this list of conditions and the following disclaimer.
+ *
+ * - Redistributions in binary form must reproduce the above copyright notice,
+ *   this list of conditions and the following disclaimer in the documentation
+ *   and/or other materials provided with the distribution.
+ *
+ * - Neither the name of intarsys nor the names of its contributors may be used
+ *   to endorse or promote products derived from this software without specific
+ *   prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+</pre>
+
+As far as we need 3rd party components, the respective licenses are included in the "3rd_party_licenses"
+directory.
+
+<h2><a name="References">References</a></h2>
+<p>jPod intarsys PDF library is a stable, industrial strength java library to access 
+or generate PDF documents. 
+
+Currently it is used in different products, e.g.:
+<ul>
+	<li>EForm&trade; Server, <a href="http://www.intarsys.de/" target="_top">intarsys consulting GmbH</a></li>
+	<li>CABAReT&trade; Stage, <a href="http://www.cabaret-solutions.com/" target="_top">CABAReT Solutions AG</a></li>
+</ul>
+</p>
+
+<h2><a name="Service & Support">Service & Support</a></h2>
+
+If you need further support, feel free to contact us.
+
+intarsys consulting GmbH<br />
+Bahnhofplatz 8<br />
+76137 Karlsruhe<br />
+Fon +49 721 38479-0<br />
+Fax +49 721 38479-60<br />
+info@intarsys.de<br />
+www.intarsys.de<br />
+
+<p>For service and support contact</p>
+
+<ol>
+	<li>EMail support: <a href="mailto://support@intarsys.de">support@intarsys.de</a></li>
+</ol>
+
+
+</body>
+</html>
