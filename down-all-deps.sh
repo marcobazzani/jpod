@@ -1,4 +1,3 @@
-
 wget -c http://sourceforge.net/projects/jpodrenderer/files/dependencies/5.5/isFreetype.5.5.20120626.zip/download -O isFreetype.5.5.20120626.zip
 wget -c http://sourceforge.net/projects/jpodrenderer/files/dependencies/5.5/isNative.5.5.20120626.zip/download -O isNative.5.5.20120626.zip
 wget -c http://sourceforge.net/projects/jpodrenderer/files/dependencies/5.5/isCWT.5.5.20120626.zip/download -O isCWT.5.5.20120626.zip
@@ -40,3 +39,4 @@ mkdir jpedal
 cd jpedal
 unzip ../jbig2_src.zip
 cd ..
+
